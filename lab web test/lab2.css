@@ -1,0 +1,101 @@
+span{ font-size:40px;}
+body{
+  background-color: azure;
+}
+
+ul { position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5d4795;
+}
+
+li {
+  float: left;
+ 
+}
+li a {
+  display: block;
+  color: white;
+  font-size:25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #7f2252;
+}
+.login-page {
+  width: 420px;
+  padding: 5% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #578479;
+  max-width: 400px;
+  margin: 0 auto 100px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 2 2 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
+.checkmark {
+  display: flex;
+  position: relative;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.form img {
+  height: 80px;
+  width: 80px;
+}
+.form input {
+  font-family: Arial, sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.form button {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #a51a2f;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+
+.form input:focus {
+  border: 2px solid #4CAF50;
+}
+
+.form h1 {
+  margin: 0 0 15px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #333;
+}
